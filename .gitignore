@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables and config files
+*.env
+*.DS_Store
+
+# IDEs and editor files
+.vscode/
+.idea/
+*.swp
+
+# Log files
+*.log
+
+# MacOS system files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python packaging files
+*.egg
+*.egg-info/
+dist/
+build/
+
+
+# Ignore specific folders
+video_env/
+videos/
+cut_videos/
+
+# Ignore all Excel files
+*.xlsx
