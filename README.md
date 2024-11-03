@@ -45,11 +45,13 @@ This notebook systematically removes every third frame in each subfolder of the 
 
 ## Dependencies
 These scripts require the following Python libraries:
-- `os`
-- `random`
-- `cv2` (OpenCV)
-- `moviepy`
-- `numpy`
-- `pandas`
-- `tqdm`
+- `os` (for file and directory management)
+- `re` (for regular expressions, used in filename processing)
+- `random` (for random sampling of frames)
+- `glob` (for file pattern matching)
+- `cv2` (OpenCV, for video and image processing)
+- `moviepy` (specifically `VideoFileClip` from `moviepy.video.io` for video trimming and frame extraction)
+- `numpy` (for numerical operations)
+- `pandas` (for data handling, especially Excel files)
+- `tqdm` (for progress bars)
 
