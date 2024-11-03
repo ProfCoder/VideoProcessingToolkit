@@ -39,3 +39,7 @@ cut_videos/
 
 # Ignore all Excel files
 *.xlsx
+
+# Ignore files
+final_cut_videos.ipynb
+delete_random_1of3_frames.py
