@@ -31,6 +31,8 @@ This notebook loads video file paths and trimming instructions from an Excel fil
 ### `delete_1of3_frames.ipynb`
 This notebook systematically removes every third frame in each subfolder of the specified parent directory by:
 
+- **Interactive Folder Selection:** Visually selecttion of folders with styled checkboxes and a button.
+- **Progress Bar:** Displays a progress bar for better tracking of frame deletion tasks.
 - **Listing and Sorting Frames**: Lists all frames in each folder and sorts them by frame number.
 - **Deleting Frames**: Deletes every third frame based on their order in the sorted list.
 
@@ -43,6 +45,8 @@ This notebook systematically removes every third frame in each subfolder of the 
 4. Update folder paths to match your local directory structure.
 5. Run the scripts according to the instructions in each notebook.
 
+**Note**: For interactive features such as multi-selection for folder selection, ensure that **ipywidgets** is installed and enabled in JupyterLab or Jupyter Notebook.
+
 ## Dependencies
 These scripts require the following Python libraries:
 - `os` (for file and directory management)
@@ -54,4 +58,6 @@ These scripts require the following Python libraries:
 - `numpy` (for numerical operations)
 - `pandas` (for data handling, especially Excel files)
 - `tqdm` (for progress bars)
+- `ipywidgets` (for interactive folder selection with checkboxes and buttons)
+- `IPython.display` (for rendering widgets and progress updates in notebooks)
 
